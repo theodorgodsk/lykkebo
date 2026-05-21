@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Pakker & priser — Helstegt pattegris | Lykkebo Grill</title>
+  <meta name="description" content="Se vores cateringpakker med helstegt pattegris, angus oksefilet, glaseret skinke og ølmarineret kylling. Fra 160 kr/kuvert. Ring 30 70 85 12." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://lykkebogrill.dk/menu.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pakker & priser — Lykkebo Grill" />
+  <meta property="og:description" content="Cateringpakker med helstegt pattegris, angus oksefilet, glaseret skinke og ølmarineret kylling. Fra 160 kr/kuvert." />
+  <meta property="og:url" content="https://lykkebogrill.dk/menu.html" />
+  <meta property="og:locale" content="da_DK" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo" data-content="restaurant.navn">Lykkebo Grill</a>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="menu.html" class="active">Pakker</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100049450737068&sk=photos" target="_blank" rel="noopener">Galleri</a></li>
+      <li><a href="https://www.findsmiley.dk/647613" target="_blank" rel="noopener">Kontrol rapport</a></li>
+      <li><a href="kontakt.html" class="nav-cta">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div class="menu-hero">
+    <span class="section-label">Pakker &amp; priser</span>
+    <h1>Vores pakker</h1>
+    <p>Vælg den pakke der passer til dit arrangement, eller ring for et skræddersyet tilbud. <a href="tel:30708512" data-content="kontakt.telefon" style="color:var(--amber-light);font-weight:700;text-decoration:none;">30 70 85 12</a></p>
+  </div>
+
+  <div class="menu-filters" id="menu-filters">
+    <button class="filter-btn active" onclick="filterMenu('all', this)">Alle</button>
+  </div>
+
+  <div id="menu-container" class="menu-content">
+    <div id="menu-loader" style="min-height:60vh;display:flex;align-items:center;justify-content:center;">
+      <div style="width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--fire);border-radius:50%;animation:spin 0.7s linear infinite;"></div>
+    </div>
+  </div>
+  <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" data-content="restaurant.navn">Lykkebo Grill</a>
+        <p data-content="restaurant.beskrivelse"></p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="menu.html">Pakker</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:30708512" data-content="kontakt.telefon">30 70 85 12</a></li>
+          <li><a href="mailto:prebendavidsen76@gmail.com" data-content="kontakt.email">prebendavidsen76@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 <span data-content="restaurant.navn">Lykkebo Grill</span>. Alle rettigheder forbeholdes.</span>
+      <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">CVR 17220187</span>
+    </div>
+  </footer>
+
+  <button id="scroll-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Tilbage til toppen">↑</button>
+
+  <script src="script.js"></script>
+  <script src="content-loader.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Lykkebo Grill — Helstegt pattegris & catering til fester</title>
+  <meta name="description" content="Uddannet slagter Preben Davidsen tilbyder helstegt pattegris, angus oksefilet og glaseret skinke til fester i hele Danmark. Ring 30 70 85 12." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://lykkebogrill.dk/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lykkebo Grill — Helstegt pattegris & catering til fester" />
+  <meta property="og:description" content="Uddannet slagter Preben Davidsen tilbyder helstegt pattegris, angus oksefilet og glaseret skinke til fester i hele Danmark." />
+  <meta property="og:url" content="https://lykkebogrill.dk/" />
+  <meta property="og:locale" content="da_DK" />
+
+  <!-- Schema: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Lykkebo Grill",
+    "description": "Catering med helstegt pattegris, angus oksefilet, glaseret skinke og ølmarineret kylling til fester og arrangementer i hele Danmark.",
+    "telephone": "+4530708512",
+    "email": "prebendavidsen76@gmail.com",
+    "areaServed": "Danmark",
+    "priceRange": "$$",
+    "founder": { "@type": "Person", "name": "Preben Davidsen" },
+    "sameAs": ["https://www.facebook.com/profile.php?id=100049450737068"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="page-overlay"><div class="pizza-loader"></div></div>
+  <script>if (sessionStorage.getItem('visited')) document.getElementById('page-overlay').style.display = 'none';</script>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo" data-content="restaurant.navn">Lykkebo Grill</a>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="active">Forside</a></li>
+      <li><a href="menu.html">Pakker</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100049450737068&sk=photos" target="_blank" rel="noopener">Galleri</a></li>
+      <li><a href="https://www.findsmiley.dk/647613" target="_blank" rel="noopener">Kontrol rapport</a></li>
+      <li><a href="kontakt.html" class="nav-cta">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow" data-content="restaurant.navn">Lykkebo Grill</div>
+      <h1><span class="h1-line1" id="hero-h1-line1">Helstegt <em>pattegris</em></span><br><span id="hero-h1-line2">til alle lejligheder</span></h1>
+      <p data-content="restaurant.beskrivelse"></p>
+      <div class="hero-btns">
+        <a href="menu.html" class="btn btn-primary" id="hero-knap1">Se pakker &amp; priser</a>
+        <a href="tel:30708512" class="btn btn-outline" id="hero-knap2">30 70 85 12</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-number" data-content="restaurant.stat_aar">15+</div>
+          <div class="stat-label" data-content="restaurant.stat_aar_label">Års erfaring</div>
+        </div>
+        <div>
+          <div class="stat-number" data-content="restaurant.stat_varianter">500+</div>
+          <div class="stat-label" data-content="restaurant.stat_varianter_label">Arrangementer</div>
+        </div>
+        <div>
+          <div class="stat-number" data-content="restaurant.stat_rating">★ 4.9</div>
+          <div class="stat-label" data-content="restaurant.stat_rating_label">Google-rating</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="70" viewBox="0 0 1440 70" preserveAspectRatio="none">
+        <path d="M0,18 C120,6 240,30 360,18 C480,6 600,30 720,18 C840,6 960,30 1080,18 C1200,6 1320,30 1440,18
+                 L1440,46 C1320,58 1200,34 1080,46 C960,58 840,34 720,46 C600,58 480,34 360,46 C240,58 120,34 0,46 Z" fill="#FCA608"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- SPECIALITETER -->
+  <section class="section" id="specialties-section">
+    <div class="section-inner">
+      <div class="section-header centered fade-up">
+        <span class="section-label">Vores specialiteter</span>
+        <h2 class="section-title" data-content="restaurant.favoritter_titel">Vores specialiteter</h2>
+        <p class="section-sub" id="specialiteter-sub">De retter vores kunder vender tilbage til arrangement efter arrangement.</p>
+      </div>
+      <div class="specialties-grid" id="specialties-grid"></div>
+      <div class="specialties-cta" style="text-align:center;margin-top:6rem;">
+        <a href="menu.html" class="btn btn-outline-dark" id="specialiteter-knap">Se alle pakker &amp; priser</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TILBUD -->
+  <div id="tilbud-sektion" style="display:none;"></div>
+
+  <!-- OM OS -->
+  <section class="section section-alt">
+    <div class="about-grid">
+      <div class="about-image fade-up">
+        <img src="Personale-2.jpg" alt="Lykkebo Grill — Preben Davidsen" id="om-os-img" />
+      </div>
+      <div class="about-text fade-up">
+        <span class="section-label">Vores historie</span>
+        <h2 class="section-title" data-content="restaurant.om_os_titel">Håndværk og kærlighed til god mad</h2>
+        <p data-content="restaurant.om_os_tekst"></p>
+        <div class="features" id="features-list">
+          <div class="feature">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Mange års erfaring</h4>
+              <p>Preben Davidsen har mange års erfaring med at tilberede mad til fester og arrangementer af alle størrelser.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="1"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Levering over hele landet</h4>
+              <p>Vi kører ud og opstiller til dit arrangement — uanset størrelse.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Bredt sortiment</h4>
+              <p>Fra helstegt pattegris til angus oksefilet, glaseret skinke og ølmarineret kylling — serveret med et stort udvalg af tilbehør.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARRANGEMENTER -->
+  <section class="events-section">
+    <div class="events-intro fade-up">
+      <h2 class="section-title" id="events-h2">Alle slags <em style="font-style:italic;color:var(--amber-light);">lejligheder</em></h2>
+      <p class="events-sub" id="events-sub">Fra den intime familiefest til den store byfest — vi medbringer pattegrisen og sørger for glade gæster.</p>
+    </div>
+    <div class="events-split fade-up">
+
+      <!-- VENSTRE: Liste med flueben -->
+      <div class="events-list-col">
+        <ul class="events-checklist" id="events-checklist">
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Fødselsdage</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Bryllupper</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Konfirmationer</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Barnedåb</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Svendegilde</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Studenterfester</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Firmafester</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Byfester</li>
+          <li><span class="events-check"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Familiesammenkomster</li>
+        </ul>
+        <a href="kontakt.html" class="btn btn-primary" id="events-knap" style="margin-top:2.5rem;">Book dit arrangement</a>
+      </div>
+
+      <!-- HØJRE: Billedgrid -->
+      <div class="events-photo-grid" id="events-galleri">
+        <div class="events-photo"><img src="Alle slags lejligheder/483483791_1188565099468503_437114403343083453_n.jpg" alt="Arrangement 1" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/484244883_1190004242657922_2142429048014176393_n.jpg" alt="Arrangement 2" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/484324002_1188565016135178_3361655150499620525_n.jpg" alt="Arrangement 3" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/502635308_1249072780084401_305319188962869140_n.jpg" alt="Arrangement 4" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/646361326_1472776384380705_9182794217280627860_n.jpg" alt="Arrangement 5" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/649481185_1472776351047375_7820539824707011019_n.jpg" alt="Arrangement 6" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/655611236_1484106379914372_9028407830721408610_n.jpg" alt="Arrangement 7" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/656165087_1484107633247580_1397253607159171311_n.jpg" alt="Arrangement 8" onclick="openLightbox(this)" /></div>
+        <div class="events-photo"><img src="Alle slags lejligheder/681893739_1513427576982252_8176980567475718717_n.jpg" alt="Arrangement 9" onclick="openLightbox(this)" /></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" data-content="restaurant.navn">Lykkebo Grill</a>
+        <p data-content="restaurant.beskrivelse"></p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="menu.html">Pakker</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:30708512" data-content="kontakt.telefon">30 70 85 12</a></li>
+          <li><a href="mailto:prebendavidsen76@gmail.com" data-content="kontakt.email">prebendavidsen76@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 <span data-content="restaurant.navn">Lykkebo Grill</span>. Alle rettigheder forbeholdes.</span>
+      <span style="color:rgba(255,255,255,0.55);font-size:0.82rem;">CVR 17220187</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <button id="lightbox-close" onclick="closeLightbox()">&#x2715;</button>
+    <button id="lightbox-prev" onclick="event.stopPropagation(); lightboxNav(-1)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img id="lightbox-img" src="" alt="" onclick="event.stopPropagation()" />
+    <button id="lightbox-next" onclick="event.stopPropagation(); lightboxNav(1)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+
+  <button id="scroll-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Tilbage til toppen">↑</button>
+
+  <script src="script.js"></script>
+  <script src="content-loader.js"></script>
+  <script>
+    let lightboxImages = [];
+    let lightboxIndex = 0;
+
+    function openLightbox(img) {
+      lightboxImages = Array.from(document.querySelectorAll('.events-photo img'));
+      lightboxIndex = lightboxImages.indexOf(img);
+      showLightboxImage();
+      document.getElementById('lightbox').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function showLightboxImage() {
+      document.getElementById('lightbox-img').src = lightboxImages[lightboxIndex].src;
+    }
+    function lightboxNav(dir) {
+      lightboxIndex = (lightboxIndex + dir + lightboxImages.length) % lightboxImages.length;
+      showLightboxImage();
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') lightboxNav(-1);
+      if (e.key === 'ArrowRight') lightboxNav(1);
+    });
+
+    // Touch swipe
+    let touchStartX = 0;
+    document.getElementById('lightbox').addEventListener('touchstart', e => {
+      touchStartX = e.touches[0].clientX;
+    }, { passive: true });
+    document.getElementById('lightbox').addEventListener('touchend', e => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) lightboxNav(diff > 0 ? 1 : -1);
+    }, { passive: true });
+  </script>
+</body>
+</html>

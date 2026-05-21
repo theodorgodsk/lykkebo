@@ -1,0 +1,125 @@
+{
+  "restaurant": {
+    "navn": "Lykkebo Grill",
+    "undertitel": "Lækker mad til overkommelige priser",
+    "tagline": "Lækker mad til overkommelige priser",
+    "beskrivelse": "Uddannet slagter Preben Davidsen byder dig velkommen til Lykkebo Grill — helstegt pattegris, angus oksefilet, glaseret skinke og ølmarineret kylling til fester og arrangementer af alle størrelser.",
+    "om_os_titel": "Håndværk, kvalitet og kærlighed til god mad",
+    "om_os_tekst": "Preben Davidsen er uddannet slagter med mange års erfaring i at tilberede det perfekte måltid. Hos Lykkebo Grill specialiserer vi os i helstegt pattegris, angus oksefilet, glaseret skinke og ølmarineret kylling — alt serveret med fyldig salatbar og lækkert tilbehør til overkommelige priser. Vi kører ud til dit arrangement og sørger for, at maden er i top.",
+    "frokost_titel": "Vi catering til alle lejligheder",
+    "frokost_tekst": "Fødselsdage og familiesammenkomster|Konfirmationer og barnedåb|Bryllupper og svendegilde|Studenterfester og firmafester|Byfester og større events",
+    "udbringning": "Vi kører ud til dit arrangement — kontakt os for et tilbud",
+    "stat_aar": "Preben",
+    "stat_aar_label": "Uddannet slagter",
+    "stat_varianter": "9+",
+    "stat_varianter_label": "Eventtyper",
+    "stat_rating": "★ 4.9",
+    "stat_rating_label": "Google-rating",
+    "hero_billede": "Forside billede.jpg",
+    "om_os_billede": "Personale-2.jpg",
+    "favoritter_titel": "Vores specialiteter",
+    "favoritter_ids": [1, 5, 6, 7]
+  },
+  "forside": {
+    "hero_h1_normal": "Helstegt",
+    "hero_h1_kursiv": "pattegris",
+    "hero_h1_linje2": "til alle lejligheder",
+    "knap1_tekst": "Se pakker & priser",
+    "knap1_link": "menu.html",
+    "knap2_tekst": "30 70 85 12",
+    "knap2_link": "tel:30708512",
+    "specialiteter_sub": "De retter vores kunder vender tilbage til arrangement efter arrangement.",
+    "specialiteter_knap_tekst": "Se alle pakker & priser",
+    "events_titel_normal": "Alle slags",
+    "events_titel_kursiv": "lejligheder",
+    "events_sub": "Fra den intime familiefest til den store byfest — vi medbringer pattegrisen og sørger for glade gæster.",
+    "events_knap_tekst": "Book dit arrangement",
+    "events_knap_link": "kontakt.html",
+    "events_checklist": [
+      "Fødselsdage", "Bryllupper", "Konfirmationer", "Barnedåb",
+      "Svendegilde", "Studenterfester", "Firmafester", "Byfester", "Familiesammenkomster"
+    ],
+    "features": [
+      { "titel": "Mange års erfaring", "tekst": "Preben Davidsen har mange års erfaring med at tilberede mad til fester og arrangementer af alle størrelser." },
+      { "titel": "Levering over hele landet", "tekst": "Vi kører ud og opstiller til dit arrangement — uanset størrelse." },
+      { "titel": "Bredt sortiment", "tekst": "Fra helstegt pattegris til angus oksefilet, glaseret skinke og ølmarineret kylling — serveret med et stort udvalg af tilbehør." }
+    ],
+    "galleri": [
+      "Alle slags lejligheder/483483791_1188565099468503_437114403343083453_n.jpg",
+      "Alle slags lejligheder/484244883_1190004242657922_2142429048014176393_n.jpg",
+      "Alle slags lejligheder/484324002_1188565016135178_3361655150499620525_n.jpg",
+      "Alle slags lejligheder/502635308_1249072780084401_305319188962869140_n.jpg",
+      "Alle slags lejligheder/646361326_1472776384380705_9182794217280627860_n.jpg",
+      "Alle slags lejligheder/649481185_1472776351047375_7820539824707011019_n.jpg",
+      "Alle slags lejligheder/655611236_1484106379914372_9028407830721408610_n.jpg",
+      "Alle slags lejligheder/656165087_1484107633247580_1397253607159171311_n.jpg",
+      "Alle slags lejligheder/681893739_1513427576982252_8176980567475718717_n.jpg"
+    ]
+  },
+
+  "tilbud": {
+    "aktiv": false,
+    "titel": "Sæsonens tilbud",
+    "tekst": "",
+    "billede": "",
+    "pris": ""
+  },
+  "kontakt": {
+    "adresse": "",
+    "by": "",
+    "telefon": "30 70 85 12",
+    "telefon2": "30 70 85 12",
+    "email": "prebendavidsen76@gmail.com"
+  },
+  "kategorier": [
+    { "key": "specialiteter", "label": "Specialiteter" },
+    { "key": "tilbehoer",     "label": "Tilbehør" }
+  ],
+  "aabningstider": [
+    { "dage": "Bestilling", "tid": "Ring på 30 70 85 12" },
+    { "dage": "Levering",   "tid": "Efter aftale" }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "navn": "Helstegt pattegris",
+      "beskrivelse": "Saftigt kød og lækkert sprødt svær er en selvfølge hvergang!",
+      "tilbehoer": ["2 slags kartofler (flødekartofler & petit kartofler)", "Hjemmelavet pastaslat"],
+      "salatbar": ["Røde løg i tern", "Syltet løg", "Salat Iceberg", "Agurk", "Tomater", "Majs", "Ærter", "Peberfrugt", "Reven gulerod", "Ananas", "Feta ost", "Oliven", "Brødkrutoner", "Chili nødder", "Marineret hvidløg", "Dressing (2 slags)", "Møllehjul fra bageren og smør"],
+      "priser_info": [
+        { "label": "30–40 kuverter", "pris": 170 },
+        { "label": "40+ kuverter",   "pris": 160 }
+      ],
+      "pris_note": "Plus 900 kr for levering og udskæring, betales på dagen.",
+      "minimum": "Minimum bestilling 30 kuverter.",
+      "pris": 0, "kategori": "specialiteter", "billede": "Kontakt billede/Gris.jpg", "billede_menu": "Kontakt billede/Gris.jpg", "billede_wrap_style": "height: 480px;", "billede_style": "transform: scale(1.3) translateY(5%);", "tag": "popular"
+    },
+
+    {
+      "id": 5,
+      "navn": "Angus oksefilet",
+      "beskrivelse": "Mørt og saftigt oksekød af højeste kvalitet — serveret til dit arrangement",
+      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "minimum": "Minimum bestilling 30 kuverter.",
+      "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/oksefilet.jpg", "billede_style": "transform: scale(1.5) translateY(-3%);", "tag": ""
+    },
+    {
+      "id": 6,
+      "navn": "Glaseret skinke",
+      "beskrivelse": "Delikat glaseret skinke — perfekt til større selskaber og familiefester",
+      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "minimum": "Minimum bestilling 30 kuverter.",
+      "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/Skinke.jpg", "billede_style": "transform: scale(1.5); transform-origin: center center;", "tag": ""
+    },
+    {
+      "id": 7,
+      "navn": "Ølmarineret kylling",
+      "beskrivelse": "Saftig kylling marineret i øl — en publikumsfavorit til alle slags events",
+      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "minimum": "Minimum bestilling 30 kuverter.",
+      "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/Kylling.jpg", "tag": ""
+    },
+
+    { "id": 10, "navn": "Tilbehør", "beskrivelse": "Spørg om dagens tilbehør — vi tilpasser efter dit arrangement", "pris": 0, "kategori": "tilbehoer", "billede": "", "tag": "" }
+  ]
+}

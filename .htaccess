@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# API routes uden .php
+RewriteRule ^api/indhold$ api/indhold.php [L]
+RewriteRule ^api/login$ api/login.php [L]
+RewriteRule ^api/logout$ api/logout.php [L]
+RewriteRule ^api/upload$ api/upload.php [L]
+
+# Admin shortcut
+RewriteRule ^admin$ admin.html [L]
