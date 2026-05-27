@@ -889,19 +889,21 @@ body::before {
   align-items: center;
   gap: 1rem;
   text-align: center;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-muted, #888);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin: 0.5rem 0 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFA500;
+  letter-spacing: 0.04em;
+  margin: 0.5rem 0 1.25rem;
 }
 .menu-info-banner::before,
 .menu-info-banner::after {
   content: '';
   flex: 1;
-  height: 1px;
-  background: var(--border, #e0e0e0);
+  height: 2px;
+  background: linear-gradient(to right, transparent, #FFA500);
+}
+.menu-info-banner::after {
+  background: linear-gradient(to left, transparent, #FFA500);
 }
 
 .menu-card-details {
