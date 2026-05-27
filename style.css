@@ -889,11 +889,11 @@ body::before {
   align-items: center;
   gap: 1rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #FFA500;
   letter-spacing: 0.04em;
-  margin: 0.5rem 0 1.25rem;
+  margin: 1rem 0 1.5rem;
 }
 .menu-info-banner::before,
 .menu-info-banner::after {
