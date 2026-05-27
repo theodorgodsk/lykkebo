@@ -96,6 +96,13 @@
     },
 
     {
+      "id": 2,
+      "type": "info",
+      "tekst": "Vælg 3 kødvarianter til 170 kr. pr. kuvert",
+      "kategori": "specialiteter"
+    },
+
+    {
       "id": 5,
       "navn": "Angus oksefilet",
       "beskrivelse": "Mørt og saftigt oksekød af højeste kvalitet — serveret til dit arrangement",

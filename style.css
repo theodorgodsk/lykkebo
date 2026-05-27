@@ -883,6 +883,19 @@ body::before {
   color: var(--text); margin-top: 0.4rem;
 }
 
+.menu-info-banner {
+  grid-column: 1 / -1;
+  background: rgba(255, 165, 0, 0.1);
+  border: 1px solid rgba(255, 165, 0, 0.35);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #FFA500;
+  margin-bottom: 0.5rem;
+}
+
 .menu-card-details {
   margin-top: 0.9rem;
   border-top: 1px solid var(--border);

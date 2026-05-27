@@ -223,6 +223,9 @@ function renderMenuPage(data) {
     const items = data.menu.filter(i => i.kategori === key);
     if (!items.length) return '';
     const cards = items.map(item => {
+      if (item.type === 'info') {
+        return `<div class="menu-info-banner fade-up">${item.tekst}</div>`;
+      }
       const menuBillede = item.billede_menu && item.billede_menu.trim() !== '' ? item.billede_menu : item.billede;
       const hasImage = menuBillede && menuBillede.trim() !== '';
       const tagHtml  = item.tag && tagLabels[item.tag]
