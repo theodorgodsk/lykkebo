@@ -3,9 +3,9 @@
     "navn": "Lykkebo Grill",
     "undertitel": "Lækker mad til overkommelige priser",
     "tagline": "Lækker mad til overkommelige priser",
-    "beskrivelse": "Uddannet slagter Preben Davidsen byder dig velkommen til Lykkebo Grill — helstegt pattegris, angus oksefilet, glaseret skinke og ølmarineret kylling til fester og arrangementer af alle størrelser.",
+    "beskrivelse": "Uddannet slagter Preben Davidsen byder dig velkommen til Lykkebo Grill — helstegt pattegris, angus oksefilet, glaseret skinke, ølmarineret kylling, kyllingespyd og lammekølle til fester og arrangementer af alle størrelser.",
     "om_os_titel": "Håndværk, kvalitet og kærlighed til god mad",
-    "om_os_tekst": "Preben Davidsen er uddannet slagter med mange års erfaring i at tilberede det perfekte måltid. Hos Lykkebo Grill specialiserer vi os i helstegt pattegris, angus oksefilet, glaseret skinke og ølmarineret kylling — alt serveret med fyldig salatbar og lækkert tilbehør til overkommelige priser. Vi kører ud til dit arrangement og sørger for, at maden er i top.",
+    "om_os_tekst": "Preben Davidsen er uddannet slagter med mange års erfaring i at tilberede det perfekte måltid. Hos Lykkebo Grill specialiserer vi os i helstegt pattegris, angus oksefilet, glaseret skinke, ølmarineret kylling, kyllingespyd og lammekølle — alt serveret med fyldig salatbar og lækkert tilbehør til overkommelige priser. Vi kører ud til dit arrangement og sørger for, at maden er i top.",
     "frokost_titel": "Vi catering til alle lejligheder",
     "frokost_tekst": "Fødselsdage og familiesammenkomster|Konfirmationer og barnedåb|Bryllupper og svendegilde|Studenterfester og firmafester|Byfester og større events",
     "udbringning": "Vi kører ud til dit arrangement — kontakt os for et tilbud",
@@ -118,6 +118,23 @@
       "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
       "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/Kylling.jpg", "tag": ""
+    },
+
+    {
+      "id": 8,
+      "navn": "Kyllingespyd",
+      "beskrivelse": "Saftige kyllingespyd — perfekte til større selskaber og udendørsarrangementer",
+      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "minimum": "Minimum bestilling 30 kuverter.",
+      "pris": 0, "kategori": "specialiteter", "billede": "", "tag": ""
+    },
+    {
+      "id": 9,
+      "navn": "Lammekølle",
+      "beskrivelse": "Mørt og velsmagende lammekølle — en delikat favorit til festlige lejligheder",
+      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "minimum": "Minimum bestilling 30 kuverter.",
+      "pris": 0, "kategori": "specialiteter", "billede": "", "tag": ""
     },
 
     { "id": 10, "navn": "Tilbehør", "beskrivelse": "Spørg om dagens tilbehør — vi tilpasser efter dit arrangement", "pris": 0, "kategori": "tilbehoer", "billede": "", "tag": "" }
