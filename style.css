@@ -863,6 +863,8 @@ body::before {
   margin: 1rem 0;
   border-top: 1px solid var(--border);
   padding-top: 0.9rem;
+  display: flex;
+  flex-direction: column;
 }
 .menu-card-pris-row {
   display: flex; justify-content: space-between; align-items: center;
@@ -880,8 +882,9 @@ body::before {
 }
 .menu-card-minimum {
   font-size: 0.82rem; font-weight: 600;
-  color: var(--text); margin-top: 0.4rem;
-  text-align: center;
+  color: var(--text); margin-top: auto;
+  padding-top: 0.6rem;
+  text-align: left;
 }
 
 .menu-info-banner {
