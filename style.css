@@ -882,8 +882,7 @@ body::before {
 }
 .menu-card-minimum {
   font-size: 0.82rem; font-weight: 600;
-  color: var(--text); margin-top: auto;
-  padding-top: 0.6rem;
+  color: var(--text); margin-top: 1.5rem;
   text-align: left;
 }
 
