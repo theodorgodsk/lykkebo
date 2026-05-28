@@ -41,6 +41,7 @@ function applyContent(data) {
 
 async function loadContent() {
   let data;
+  const cachedStr = sessionStorage.getItem('siteContent');
   try {
     const res = await fetch('/api/indhold');
     data = await res.json();
@@ -189,7 +190,9 @@ async function loadContent() {
     ).join('');
   }
 
-  renderMenuPage(data);
+  if (!cachedStr || cachedStr !== JSON.stringify(data)) {
+    renderMenuPage(data);
+  }
 
   // Åbningstider på forsiden
   const hoursGrid = document.getElementById('hours-grid');
