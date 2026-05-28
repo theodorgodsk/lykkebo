@@ -1244,7 +1244,7 @@ footer {
   flex-wrap: wrap; gap: 1rem;
 }
 .footer-bottom > span { color: var(--dark-mid); font-size: 0.82rem; }
-.footer-social { color: var(--dark-mid); transition: color 0.2s; display: flex; align-items: center; }
+.footer-social { color: rgba(255,255,255,0.6); transition: color 0.2s; display: flex; align-items: center; margin-top: 0.75rem; }
 .footer-social:hover { color: #FFA500; }
 .footer-bottom .footer-cvr {
   font-family: 'Cormorant Garamond', Georgia, serif;
