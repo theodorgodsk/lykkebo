@@ -862,7 +862,7 @@ body::before {
 .menu-card-priser {
   margin: 1rem 0 0;
   border-top: 1px solid var(--border);
-  padding-top: 0.9rem;
+  padding-top: 0.5rem;
 }
 .menu-card-pris-row {
   display: flex; justify-content: space-between; align-items: center;
