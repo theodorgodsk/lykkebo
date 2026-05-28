@@ -319,7 +319,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const cached = sessionStorage.getItem('siteContent');
   if (cached) {
-    try { applyContent(JSON.parse(cached)); } catch(e) {}
+    try {
+      const data = JSON.parse(cached);
+      applyContent(data);
+      renderMenuPage(data);
+    } catch(e) {}
   }
 
   loadContent();
