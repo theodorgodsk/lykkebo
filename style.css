@@ -881,6 +881,7 @@ body::before {
 .menu-card-minimum {
   font-size: 0.82rem; font-weight: 600;
   color: var(--text); margin-top: 0.4rem;
+  text-align: center;
 }
 
 .menu-info-banner {
