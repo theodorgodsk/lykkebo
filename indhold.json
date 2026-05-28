@@ -106,7 +106,7 @@
       "id": 5,
       "navn": "Angus oksefilet",
       "beskrivelse": "Mørt og saftigt oksekød af højeste kvalitet — serveret til dit arrangement",
-      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "priser_info": [{ "label": "Vælg 3 kødvarianter", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
       "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/oksefilet.jpg", "billede_style": "transform: scale(1.5) translateY(-3%);", "billede_menu_style": "transform: scale(0.9) translateY(-3%);", "tag": ""
     },
@@ -114,7 +114,7 @@
       "id": 6,
       "navn": "Glaseret skinke",
       "beskrivelse": "Delikat glaseret skinke — perfekt til større selskaber og familiefester",
-      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "priser_info": [{ "label": "Vælg 3 kødvarianter", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
       "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/Skinke.jpg", "billede_style": "transform: scale(1.5); transform-origin: center center;", "billede_menu_style": "transform: scale(1.0); transform-origin: center center;", "tag": ""
     },
@@ -122,7 +122,7 @@
       "id": 7,
       "navn": "Ølmarineret kylling",
       "beskrivelse": "Saftig kylling marineret i øl — en publikumsfavorit til alle slags events",
-      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "priser_info": [{ "label": "Vælg 3 kødvarianter", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
       "pris": 0, "kategori": "specialiteter", "billede": "Nye pakker/Helkylling.jpg", "billede_menu": "Nye pakker/Helkylling.jpg", "billede_style": "transform: scale(1.6);", "tag": ""
     },
@@ -131,7 +131,7 @@
       "id": 8,
       "navn": "Kyllingespyd",
       "beskrivelse": "Saftige kyllingespyd — perfekte til større selskaber og udendørsarrangementer",
-      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "priser_info": [{ "label": "Vælg 3 kødvarianter", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
       "pris": 0, "kategori": "specialiteter", "billede": "Nye pakker/kyllingespyd.jpg", "billede_menu": "Nye pakker/kyllingespyd.jpg", "tag": ""
     },
@@ -139,7 +139,7 @@
       "id": 9,
       "navn": "Lammekølle",
       "beskrivelse": "Mørt og velsmagende lammekølle — en delikat favorit til festlige lejligheder",
-      "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
+      "priser_info": [{ "label": "Vælg 3 kødvarianter", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
       "pris": 0, "kategori": "specialiteter", "billede": "Nye pakker/Lammekølle.jpg", "billede_menu": "Nye pakker/Lammekølle.jpg", "tag": ""
     },
