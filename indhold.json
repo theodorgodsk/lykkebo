@@ -133,7 +133,7 @@
       "beskrivelse": "Saftige kyllingespyd — perfekte til større selskaber og udendørsarrangementer",
       "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
-      "pris": 0, "kategori": "specialiteter", "billede": "", "tag": ""
+      "pris": 0, "kategori": "specialiteter", "billede": "Nye pakker/kyllingespyd.jpg", "billede_menu": "Nye pakker/kyllingespyd.jpg", "tag": ""
     },
     {
       "id": 9,
@@ -141,7 +141,7 @@
       "beskrivelse": "Mørt og velsmagende lammekølle — en delikat favorit til festlige lejligheder",
       "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
-      "pris": 0, "kategori": "specialiteter", "billede": "", "tag": ""
+      "pris": 0, "kategori": "specialiteter", "billede": "Nye pakker/Lammekølle.jpg", "billede_menu": "Nye pakker/Lammekølle.jpg", "tag": ""
     },
 
     { "id": 10, "navn": "Tilbehør", "beskrivelse": "Spørg om dagens tilbehør — vi tilpasser efter dit arrangement", "pris": 0, "kategori": "tilbehoer", "billede": "", "tag": "" }
