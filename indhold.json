@@ -108,7 +108,7 @@
       "beskrivelse": "Mørt og saftigt oksekød af højeste kvalitet — serveret til dit arrangement",
       "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
-      "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/oksefilet.jpg", "billede_style": "transform: scale(1.5) translateY(-3%);", "tag": ""
+      "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/oksefilet.jpg", "billede_style": "transform: scale(1.1) translateY(-3%);", "tag": ""
     },
     {
       "id": 6,
