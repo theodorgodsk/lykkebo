@@ -260,7 +260,7 @@ function renderMenuPage(data) {
 
       return `
         <div class="menu-card fade-up${item.priser_info ? ' menu-card--detailed' : ''}">
-          ${hasImage ? `<div class="menu-img-wrap" ${item.billede_wrap_style ? `style="${item.billede_wrap_style}"` : ''}><img src="${menuBillede}" alt="${item.navn}" ${item.billede_style ? `style="${item.billede_style}"` : ''} /></div>` : ''}
+          ${hasImage ? `<div class="menu-img-wrap" ${item.billede_wrap_style ? `style="${item.billede_wrap_style}"` : ''}><img src="${menuBillede}" alt="${item.navn}" ${(item.billede_menu_style || item.billede_style) ? `style="${item.billede_menu_style || item.billede_style}"` : ''} /></div>` : ''}
           <div class="menu-card-body">
             <div class="menu-card-top">
               <h3>${item.navn}</h3>
