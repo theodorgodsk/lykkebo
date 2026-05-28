@@ -116,7 +116,7 @@
       "beskrivelse": "Delikat glaseret skinke — perfekt til større selskaber og familiefester",
       "priser_info": [{ "label": "Pr. kuvert", "pris": 170 }],
       "minimum": "Minimum bestilling 30 kuverter.",
-      "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/Skinke.jpg", "billede_style": "transform: scale(1.5); transform-origin: center center;", "billede_menu_style": "transform: scale(0.9); transform-origin: center center;", "tag": ""
+      "pris": 0, "kategori": "specialiteter", "billede": "Kategori billeder/Skinke.jpg", "billede_style": "transform: scale(1.5); transform-origin: center center;", "billede_menu_style": "transform: scale(1.0); transform-origin: center center;", "tag": ""
     },
     {
       "id": 7,
