@@ -1,3 +1,5 @@
+let menuRenderedFromCache = false;
+
 const tagLabels = {
   popular: 'Mest populær',
   hot:     'Favorit',
@@ -41,7 +43,6 @@ function applyContent(data) {
 
 async function loadContent() {
   let data;
-  const cachedStr = sessionStorage.getItem('siteContent');
   try {
     const res = await fetch('/api/indhold');
     data = await res.json();
@@ -190,9 +191,10 @@ async function loadContent() {
     ).join('');
   }
 
-  if (!cachedStr || cachedStr !== JSON.stringify(data)) {
+  if (!menuRenderedFromCache) {
     renderMenuPage(data);
   }
+  menuRenderedFromCache = false;
 
   // Åbningstider på forsiden
   const hoursGrid = document.getElementById('hours-grid');
@@ -326,6 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = JSON.parse(cached);
       applyContent(data);
       renderMenuPage(data);
+      menuRenderedFromCache = true;
     } catch(e) {}
   }
 
